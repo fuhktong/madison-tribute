@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <style type="text/css">
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 15px 8px;
+  padding: 30px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 50px 50px 10px;
+  margin: 0;
+  display: inline-block;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+    </style>
+  </head>
+    <body>
+        <main id="main">
+                <h1 id="title">James Madison</h1>
+                <p>President, Diplomat, Founding Father<br>
+                Primary Author of the Federalist Papers</p>
+            <figure id="img-div">
+                <img id="image" src="https://cdn.britannica.com/50/2250-004-1F1AED00/detail-James-Madison-oil-painting-Asher-B-1833.jpg?s=1500x700&q=85" alt="Portrait of James Madison - 1816."/>
+                <figcaption id="img-caption">Portrait of James Madison - 1816.
+                </figcaption>
+            </figure>
+            <section id="tribute-info">
+                <h3 id="tribute-info">List of James Madison's Achievements:
+                </h3>
+                <ul>
+                    <li><strong>Father of the Constitution: </strong>Played a crucial role in the drafting of the United States Constitution during the Constitutional Convention in 1787.
+                    </li>
+                    <li><strong>The Federalist Papers: </strong>Co-authored, along with Alexander Hamilton and John Jay, a series of essays known as The Federalist Papers, advocating for the ratification of the Constitution.
+                    </li>
+                    <li><strong>Bill of Rights: </strong>Instrumental in the drafting and promotion of the Bill of Rights, the first ten amendments to the Constitution, which guarantee fundamental rights and liberties.
+                    </li>
+                    <li><strong>Fourth President of the United States: </strong>Served as the fourth President from 1809 to 1817.
+                    </li>
+                    <li><strong>War of 1812: </strong>Faced the challenges of the War of 1812 during his presidency, including the burning of the White House by British forces.
+                    </li>
+                    <li><strong>Treaty of Ghent: </strong>Negotiated the Treaty of Ghent in 1814, ending the War of 1812 and restoring peaceful relations between the United States and Britain.
+                    </li>
+                    <li><strong>Founding Father: </strong>Played a crucial role in the early history of the United States and is considered one of the Founding Fathers.
+                    </li>
+                    <li><strong>Virginia Resolutions: </strong>Authored the Virginia Resolutions in opposition to the Alien and Sedition Acts, asserting the principle of nullification and states' rights.
+                    </li>
+                    <li><strong>Montpelier: </strong>Owned and operated the Montpelier estate in Virginia, contributing to agricultural and economic development.
+                    </li>
+                    <li><strong>Educational Contributions: </strong>Co-founded the University of Virginia and served as its rector, making significant contributions to education.
+                    </li>
+                </ul>
+                <h3>
+                    Feel free to explore more about James Madison on his <a href="https://en.wikipedia.org/wiki/James_Madison" target="_blank">Wikipedia page.</a>
+                  </h3>
+            </section>
+        </main>
+    </body>
